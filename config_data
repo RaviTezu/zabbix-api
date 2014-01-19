@@ -1,0 +1,22 @@
+#
+# Classify the monitoring servers depending on environment
+#
+[test]
+url: https://monitoring.example.com
+username: zabbix_api
+password: zabbix_api
+
+[qa]
+url: https://monitoring.example.com
+username: zabbix_api
+password: zabbix_api
+
+[stg]
+url: https://monitoring.example.com
+username: zabbix_api
+password: zabbix_api
+
+[prod]
+url: https://monitoring.example.com
+username: foo
+password: bar

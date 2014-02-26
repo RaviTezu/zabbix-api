@@ -4,3 +4,6 @@ This Python Scipt can help you in adding/deleting templates to host from CLI usi
 - Update the config_data with required details
 
 Note: This Script may not work for Zabbix 2.0 
+
+LICENSE:
+Released under MIT License, full details in LICENSE file

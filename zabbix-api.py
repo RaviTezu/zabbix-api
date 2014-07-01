@@ -13,6 +13,14 @@ class  ZabbixAPIException(Exception):
 
 
 class  ZabbixAPI(object):
+    """
+    Assign / un-assign a host to template using Zabbix API.
+ 
+    Attributes: 
+    url: zabbix host url
+    user: username with zabbix api access
+    password: password of above mentioned user
+    """
     __auth = ''
     __id = 0
 
